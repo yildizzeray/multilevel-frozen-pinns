@@ -1,4 +1,4 @@
-# SWIM-PDE Thesis
+# Multilevel-Frozen-PINNS
 
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
