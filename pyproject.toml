@@ -1,0 +1,24 @@
+[project]
+name = "swim-pde-thesis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "~=3.10.0"
+dependencies = [
+    "fbpinns",
+    "ipython>=8.12.0",
+    "jinja2>=3.1.6",
+    "pandas>=2.3.3",
+    "PyQt5==5.15.11",
+    "swimpde-jax",
+]
+
+[tool.uv.workspace]
+members = [
+    "swimpde_jax",
+    "fbpinns",
+]
+
+[tool.uv.sources]
+swimpde-jax = { workspace = true, editable = true }
+fbpinns = { workspace = true, editable = true }
